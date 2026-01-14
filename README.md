@@ -2,7 +2,7 @@
 
 > **A Self-Correcting Research System with Infinite Context.**
 
-![Velocity Research Engine UI](velocity_ui_screenshot.png)
+
 
 ## 🚀 Features
 
@@ -28,7 +28,7 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/velocity-research-engine.git
+git clone https://github.com/syedhannanalisabri/cyclic-research-agent.git
 cd velocity-research-engine
 ```
 
