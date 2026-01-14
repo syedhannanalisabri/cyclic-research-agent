@@ -1,0 +1,7 @@
+langgraph
+langchain-groq
+tavily-python
+python-dotenv
+langchain
+fastapi
+uvicorn[standard]

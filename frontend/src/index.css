@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer theme {
+    :root {
+        --color-cyber-dark: #0f172a;
+        --color-cyber-light: #1e293b;
+        --color-cyber-accent: #6366f1;
+        --color-cyber-glow: #818cf8;
+    }
+}
+
+@layer base {
+    body {
+        @apply bg-slate-950 text-white min-h-screen overflow-x-hidden;
+        background-image:
+            linear-gradient(to right, rgba(99, 102, 241, 0.1) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(99, 102, 241, 0.1) 1px, transparent 1px);
+        background-size: 50px 50px;
+        animation: grid-flow 20s linear infinite;
+    }
+}
+
+@keyframes grid-flow {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 50px 50px;
+    }
+}
+
+.glass-card {
+    @apply bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl shadow-2xl;
+}
+
+.input-ring {
+    @apply focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-300;
+}
